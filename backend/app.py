@@ -23,6 +23,7 @@ def run_sbs():
     target_column = request.form['target_column']
 
     df = pd.read_csv(file)
+    df.dropna(inplace=True)
     
     if target_column not in df.columns:
         return jsonify({'error': 'Target column not found'}), 400
