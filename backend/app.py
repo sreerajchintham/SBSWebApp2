@@ -5,6 +5,7 @@ from io import StringIO
 from sklearn.neighbors import KNeighborsClassifier
 from flask_cors import CORS
 from sklearn.preprocessing import LabelEncoder
+import os
 
 app = Flask(__name__)
 CORS(app)  # To allow frontend requests
