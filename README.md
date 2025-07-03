@@ -1,8 +1,4 @@
-Here’s a complete **README.md** file you can use for your GitHub repository:
 
----
-
-```markdown
 # Sequential Backward Selection (SBS) Web Application
 
 This project is a **full-stack web application** that allows users to upload their own dataset, select a target column, choose the desired number of features, and run the **Sequential Backward Selection (SBS)** algorithm to receive a reduced dataset.
@@ -53,7 +49,6 @@ It demonstrates both **machine learning** and **modern web development** skills 
 
 ## 📂 Folder Structure
 
-```
 
 root/
 ├── backend/
@@ -68,7 +63,6 @@ root/
 │   └── index.js
 └── package.json
 
-````
 
 ---
 
@@ -78,7 +72,6 @@ root/
 ```bash
 git clone https://github.com/your-username/sbs-webapp.git
 cd sbs-webapp
-````
 
 ---
 
