@@ -33,7 +33,7 @@ function App() {
     formData.append('k_features', kFeatures);
 
     try {
-      const res = await axios.post('http://127.0.0.1:5000/run-sbs', formData);
+      const res = await axios.post('https://sbswebapp2.onrender.com', formData);
       setResult(res.data);
     } catch (error) {
       console.error(error);
