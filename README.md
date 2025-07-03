@@ -72,7 +72,7 @@ root/
 ```bash
 git clone https://github.com/your-username/sbs-webapp.git
 cd sbs-webapp
-
+```
 ---
 
 ### 🚀 Backend (Flask API)
@@ -159,11 +159,4 @@ This project is licensed under the MIT License. Feel free to use, modify, and sh
 
 ---
 
-> Developed by **\[Your Name Here]** as part of **Data Mining Course Project**.
-
-```
-
----
-
-👉 If you want, I can also generate this directly into a `README.md` file for you to drop into your GitHub repo. Want me to do that?
-```
+> Developed by **Sreeraj Chintham** as part of **Data Mining Course Project**.
